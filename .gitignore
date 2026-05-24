@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Local
+.DS_Store
+*.log
+.env
+*.pem
+
+# Docker
+.dockerignore.bak
+
+# IDE
+.vscode/
+.idea/
