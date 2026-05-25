@@ -20,3 +20,4 @@ End-to-end personal portfolio deployment using Docker, Nginx, AWS EC2, Let's Enc
 - [ ] **Phase 3:** CloudWatch monitoring, alarms, runbook
 
 ## Repository Structure
+cloud-portfolio-aws/ ├── app/ # Static portfolio site │ ├── index.html │ └── style.css ├── docker/ # Container build files │ ├── Dockerfile │ └── nginx.conf # HTTPS config with security headers ├── docs/ # Phase write-ups │ ├── 01-containerization.md │ ├── 02-vpc-and-ec2-setup.md │ └── 03-https-letsencrypt.md ├── .gitignore ├── LICENSE └── README.md
