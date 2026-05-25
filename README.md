@@ -17,7 +17,7 @@ End-to-end personal portfolio deployment using Docker, Nginx, AWS EC2, Let's Enc
 ## Project Phases
 - [x] **Phase 1:** Containerize the portfolio (Docker + Nginx)
 - [x] **Phase 2:** Deploy to AWS with HTTPS (VPC + EC2 + Let's Encrypt)
-- [ ] **Phase 3:** CloudWatch monitoring, alarms, runbook
+- [x] **Phase 3:** CloudWatch monitoring (in progress — IAM role + Agent done)
 
 ## Repository Structure
 cloud-portfolio-aws/ ├── app/ # Static portfolio site │ ├── index.html │ └── style.css ├── docker/ # Container build files │ ├── Dockerfile │ └── nginx.conf # HTTPS config with security headers ├── docs/ # Phase write-ups │ ├── 01-containerization.md │ ├── 02-vpc-and-ec2-setup.md │ └── 03-https-letsencrypt.md ├── .gitignore ├── LICENSE └── README.md
